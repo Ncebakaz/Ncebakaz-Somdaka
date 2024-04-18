@@ -1,7 +1,11 @@
 const allowedOrigins = [
     'https://127.0.0.1.5500',
     'http:192.168.1.65:3000',
-    'http://localhost:3500'
+    'http://localhost:3500',
+    '0812705024',
+    'https://www.facebook.com',
+    'https://www.google.com',
+    'https://www.linkedin.com'
 ];
 const corsOptions = {
     origin: (origin, callback) => {
