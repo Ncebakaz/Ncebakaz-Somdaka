@@ -1,19 +1,12 @@
-const express = require('express')
+ const express = require('express')
 const app = express();
 const path = require('path');
-const cors = require('cors')
-const corsOptions = require('./config/corsOptions');
 const errorHandler = require('./middleware/errorHandler');
-const verifyJWT = require('./middleware/verifyJWT')
-const cookieParser = require('cookie-parser')
 const { logger } = require('./middleware/logEvents');
 const PORT = process.env.PORT || 3500;
 
 // custom middlerware
 app.use(logger)
-
-//Cross Origin Resource Sharing
-app.use(cors(corsOptions));
 
 //form data
 app.use(express.urlencoded({extended: false }));
@@ -21,19 +14,14 @@ app.use(express.urlencoded({extended: false }));
 //built middleware json
 app.use(express.json());
 
-//middleware for cookies
-app.use(cookieParser());
-
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
 
-//routes
-app.use('/', require('./routes/root'));
-app.use('/register', require('./routes/register'));
-app.use('/auth', require('./routes/auth'));
-app.use('/refresh', require('./routes/refresh'));
+app.get('/', (req, res) => {
+    res.sendFile('./views/index.html', {root: __dirname });
+    
+})
 
-app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
