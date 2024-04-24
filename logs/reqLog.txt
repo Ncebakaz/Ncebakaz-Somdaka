@@ -128,3 +128,8 @@
 20240410	05:07:51	d38da5c4-2158-4562-989d-05ba9c031300	POST	undefined	/employees
 20240410	05:08:09	5a197135-68d8-4d96-9ad3-7dc7ba77f6d2	PUT	undefined	/employees
 20240410	05:08:23	2acf2635-5a4e-4ad9-ba8e-83efe7a83211	DELETE	undefined	/employees
+20240424	15:54:19	8957a393-778c-40cd-bb56-3feff347f62a	GET	undefined	/
+20240424	15:54:20	37e6c9fa-c717-4c34-8790-b7da17afefe4	GET	undefined	/css/style.css
+20240424	15:54:20	82dcde28-ebbd-4473-bb5b-d908db6ce8f6	GET	undefined	/src/index.js
+20240424	15:54:23	1e7039d3-a953-4768-850c-bee36bd06e66	GET	undefined	/favicon.ico
+20240424	15:54:59	79d1d7ce-f75b-4f7e-8cd7-c5afe3d9ce7a	GET	undefined	/
