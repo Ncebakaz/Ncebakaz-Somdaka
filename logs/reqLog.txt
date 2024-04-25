@@ -133,3 +133,8 @@
 20240424	15:54:20	82dcde28-ebbd-4473-bb5b-d908db6ce8f6	GET	undefined	/src/index.js
 20240424	15:54:23	1e7039d3-a953-4768-850c-bee36bd06e66	GET	undefined	/favicon.ico
 20240424	15:54:59	79d1d7ce-f75b-4f7e-8cd7-c5afe3d9ce7a	GET	undefined	/
+20240424	16:00:40	8b0c1fb1-1241-4182-9482-032c3ec2d861	GET	undefined	/css/style.css
+20240425	11:24:07	715495cf-7c11-4bae-85d0-b7d632e2c721	GET	undefined	/
+20240425	11:24:08	b945addd-0f47-444b-b1a9-a4259821c276	GET	undefined	/css/style.css
+20240425	11:24:08	03b0df49-6f4f-4bd0-ba37-d5497bfa78f9	GET	undefined	/src/index.js
+20240425	11:24:08	342a6323-eb3f-4380-946f-2fe8a4892451	GET	undefined	/favicon.ico
